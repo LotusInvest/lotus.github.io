@@ -103,45 +103,56 @@ function createRentalH(markersData) {
 
 // Usage
 var markers = [
-    ...createFamilyHouse([{
-            position: {
-                lat: 41.29108,
-                lng: 68.22685
+    ...createFamilyHouse([
+       {position: {
+                lat: 41.29108, 
+                lng: 69.22685
             },
             image: "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
             area: "226m2",
             location: "Tashkent, Uzbekistan"
         },
-        {
-            position: {
+       
+         {position: {
+                lat: 41.31637, 
+                lng: 69.33335
+            },
+            image: "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+            area: "321m2",
+            location: "Tashkent, Uzbekistan"
+        },
+
+    ]),
+    ...createRentalH([
+        
+          {position: {
+                            lat: 41.2913, 
+                            lng: 69.2257
+                        },
+                        image: "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+                        area: "226m2",
+                        location: "Tashkent, Uzbekistan"
+                    }, // add more rentals
+       
+            {position: {
                 lat: 41.29108,
                 lng: 63.22685
             },
             image: "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
             area: "226m2",
             location: "Antalya, Turkey"
-        }
-    ]),
-    ...createRentalH([{
-                    position: {
-                            lat: 41.29108,
-                            lng: 69.22685
-                        },
-                        image: "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
-                        area: "226m2",
-                        location: "Tashkent, Uzbekistan"
-                    }, // add more rentals
-                {
-                     position: {
-                             lat: 40.29108,
-                             lng: 69.22685
-                         },
-                         image: "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
-                         area: "226m2",
-                         location: "Tashkent, Uzbekistan"
-        
-     
-      },
+              },
+       
+        {position: {
+                lat: 41.29021, 
+                lng: 69.22714
+            },
+            image: "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+            area: "226m2",
+            location: "Tashkent, Uzbekistan"
+              },
+
+       
 ])
 ];
 
