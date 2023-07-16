@@ -47,9 +47,9 @@
 
    }
 
-   @media only screen and (max-width: 1180px) {
+   @media only screen and (max-width: 1400px) {
        #infoPanel {
-           top: 5.5% !important;
+           top: 6.5% !important;
          
        }
 
@@ -90,7 +90,7 @@
    #infoPanel {
        position: fixed;
        left: 0;
-       top: 4%;
+       top: 6%;
        display: flex;
        width: 60px;
    }
